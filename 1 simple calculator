@@ -1,0 +1,20 @@
+try:
+    p = int(input("Enter the first input: "))
+    q = int(input("Enter the second input: "))
+    oper = input("(+, -, *, /, %): ")
+    result = 0
+    if oper == "+":
+        result = p+q 
+    elif oper == "-":
+        result = p-q
+    elif oper == "*":
+        result = p*q
+    elif oper == "/":
+        result = p//q
+    elif oper == "%":
+        result = p%q 
+    else:
+        print("Invalid Input")
+    print("Your answer is: ",result)
+except:
+    print("Enter valid input")
